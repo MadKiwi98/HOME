@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Optional: change background color if needed */
+            padding-top: 50px; /* Adjust this value to move the content up */
+        }
+        #widget-container {
+            width: 2000px; /* Width remains the same */
+            height: 450px; /* Adjusted container height */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #widget-content {
+            transform: scale(1.5, 1.2); /* Adjusted scale to reduce length */
+            transform-origin: top left;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="widget-container">
+        <div id="widget-content">
+            <script src="https://wxblox.aerisapi.com/free/js/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZ1bGwtd2lkZSIsImxvYyI6InB3c193YWl0ZXR1bmF2YWxsZXlyZDAxIiwibWV0cmljIjp0cnVlLCJ0aGVtZSI6ImRhcmsiLCJjb2xvcnMiOnsiYmFzZSI6e30sImFsdCI6e30sImFjY2VudCI6e319LCJpYXQiOjE3MjUzMjcxNDl9.NAjXgWoICFI-DNsAV0mzuRKM4MNmIoMEdpSnKFIyFGY"></script>
+        </div>
+    </div>
+</body>
+</html>
